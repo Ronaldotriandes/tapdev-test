@@ -81,9 +81,9 @@ Production : ditemukan issue yang harus diperbaiki saat itu juga
 Jelaskan apa yang harus dilakukan supaya issue dapat diperbaiki serta branch QA & Development tidak terjadi conflict dan tetap up-to-date terhadap perbaikan issue?
 
 -->
-Biasanya ketika ada issue di production, kita akan membuat branch baru untuk memperbaiki issue tersebut. Kemudian, kita akan melakukan merge ke branch QA dan Development setelah issue tersebut selesai diperbaiki. Dengan begitu, branch QA dan Development akan tetap up-to-date terhadap perbaikan issue tersebut.
+Biasanya ketika ada issue di production, saya akan membuat branch baru untuk memperbaiki issue tersebut. Kemudian, saya akan melakukan merge ke branch QA dan Development setelah issue tersebut selesai diperbaiki. Dengan begitu, branch QA dan Development akan tetap up-to-date terhadap perbaikan issue tersebut.
 
-Jika ada conflict, kita akan melakukan resolve conflict tersebut terlebih dahulu sebelum melakukan merge ke branch QA dan Development.
+Jika ada conflict, saya dan tim akan melakukan resolve conflict tersebut terlebih dahulu sebelum melakukan merge ke branch QA dan Development.
 
 By experience saya biasanya mengerjakan fitur baru itu dengan bikin branch baru dari branch Production, karena production lah branch yang paling stabil dan aman untuk diubah-ubah. Jika sudah selesai mendevelop di local saya push branch fitur tadi ke development -> QA dan baru terakhir ke production. itupun juga berlaku pada issue issue yang ditemukan di production. 
 
