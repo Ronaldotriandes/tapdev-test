@@ -69,7 +69,7 @@ Check di logs go application akan ada logs dari consumer dan producer
 
 # 3. Temukan dan perbaiki issue yang terdapat pada program terlampir. Untuk menjalankan program ini pastikan sudah install node js dan npm atau pnpm. Langkah awal ke folder src/client lalu ketik pnpm i dan pnpm build. Langkah kedua masuk ke folder src lalu ketik pnpm i dan pnpm start.
 
-saya sudah install dan jalankan applikasi express js nya, dan setelah saya coba reproduces code dan error dari api nya, saya temukan ada yang salah dari post/create user nya, di parameter ada yang salah di user service. saya cek di model nya itu ada paramter name, dan age. tapi di service itu variable parameternya name dan ages, maka dari itu tidak bisa tercreate usernya.
+saya sudah install dan jalankan applikasi express js nya, dan setelah saya coba reproduces code dan error dari api nya, saya temukan ada yang salah dari post/create user nya, di parameter ada yang salah di user service. saya cek di model nya itu ada paramter name, dan age. tapi di service itu variable parameternya nama dan ages, maka dari itu tidak bisa tercreate usernya.
 
 saya sudah perbaiki itu dan bisa create user, edit, getall dan getdetail user.
 
